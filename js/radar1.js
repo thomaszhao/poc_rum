@@ -2,6 +2,7 @@
 (function(window, document) {
     'use strict';
     function getFilename() {
+	// Thomas: 这是个正则，测试问号后面的参数是否含有radar-no-min
         return /radar-no-min/.test(window.location.search) ? 'api.unmin.js' : 'api.js';
     }
 

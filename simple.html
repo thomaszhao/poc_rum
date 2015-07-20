@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Radar API | Standard</title>
+<meta charset="utf-8">
+
+<style>
+div {
+    margin: 12px;
+}
+button {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 100%;
+    margin: 6px;
+    width: 86px;
+    height: 32px;
+}
+</style>
+
+</head>
+<body>
+
+<div>
+<button id="doImpact">Impact</button>
+</div>
+<div>
+<button id="doRadar">Radar</button>
+</div>
+
+<script src="./resources/jquery-1.11.2.min.js"></script>
+<script src="./js/radar1.js"></script>
+<script src="./js/ui.js"></script>
+
+<script>
+(function(w) {
+    function handleError(event) {
+        //debugger;
+        $.post(
+            '//collector.wildlemur.com/report/js',
+            {
+                errorMsg: event.message,
+                url: event.filename,
+                lineNumber: event.lineno
+            });
+    }
+
+    if (w.addEventListener) {
+        w.addEventListener('error', handleError, false);
+    } else if (w.attachEvent) {
+        w.attachEvent('onerror', handleError);
+    }
+}(window));
+</script>
+
+</body>
+</html>
