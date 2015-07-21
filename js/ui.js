@@ -25,7 +25,10 @@ $(function() {
     setTimeout(
         function() {
             api.radar({
-                clearResourceTimings: true
+                clearResourceTimings: true,
+	        initDomain: 'init.rum.thomaszhao.cn',
+	        reportDomain: 'rpt.rum.thomaszhao.cn',
+	        providersDomain: 'radar.rum.thomaszhao.cn'
             });
         },
         1000
