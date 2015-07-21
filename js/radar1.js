@@ -81,7 +81,7 @@
         if ('crossOrigin' in script) {
             script.crossOrigin = 'anonymous';
         }
-        script.src = '//radar.cedexis.com/radar/' + getFilename();
+        script.src = './js/api.unmin.js';
         var temp = document.getElementsByTagName('script')[0];
         temp.parentNode.insertBefore(script, temp);
     }

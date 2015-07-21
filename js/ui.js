@@ -17,9 +17,11 @@ $(function() {
             "currency": "euro"
         },
         clearResourceTimings: true,
-        resourceTimingBufferSize: 300
+        resourceTimingBufferSize: 300,
+	initDomain: 'init.rum.thomaszhao.cn',
+	reportDomain: 'rpt.rum.thomaszhao.cn',
+	providersDomain: 'radar.rum.thomaszhao.cn'
     });
-
     setTimeout(
         function() {
             api.radar({
@@ -38,13 +40,19 @@ $(function() {
                 "value": 34.99,
                 "currency": "euro"
             },
-            clearResourceTimings: true
+            clearResourceTimings: true,
+	    initDomain: 'init.rum.thomaszhao.cn',
+	    reportDomain: 'rpt.rum.thomaszhao.cn',
+	    providersDomain: 'radar.rum.thomaszhao.cn'
         });
     });
 
     $('#doRadar').click(function() {
         api.radar({
-            clearResourceTimings: true
+            clearResourceTimings: true,
+	    initDomain: 'init.rum.thomaszhao.cn',
+	    reportDomain: 'rpt.rum.thomaszhao.cn',
+	    providersDomain: 'radar.rum.thomaszhao.cn'
         });
     });
 });
