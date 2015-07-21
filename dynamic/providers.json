@@ -6,7 +6,7 @@
 {"a":true,"b":1,"p":{"z":0,"c":0,"i":418,"p":{"a":{"a":{"u":"http://cdx-g.ooyala.com/r20.gif","t":2},"b":{"u":"http://cdx-g.ooyala.com/r20.gif","t":2},"c":{"u":"http://cdx-g.ooyala.com/r20-100KB.png","t":2}}}}},
 {"a":true,"b":1,"p":{"z":0,"c":0,"i":25,"p":{"a":{"a":{"u":"http://cedexispub.cdnetworks.net/img/25/r20.gif","t":2},"b":{"u":"http://cedexispub.cdnetworks.net/img/25/r20.gif","t":2},"c":{"u":"http://cedexispub.cdnetworks.net/img/25/r20-100KB.png","t":2}},"d":{"t":8,"u":"http://cedexispub.cdnetworks.net/node.js"}}}},
 {"a":true,"b":1,"p":{"z":0,"c":0,"i":66,"p":{"a":{"a":{"u":"http://p66.bench.cedexis-test.com/img/66/r20.gif","t":2},"b":{"u":"http://p66.bench.cedexis-test.com/img/66/r20.gif","t":2}}}}},
-{"a":true,"b":1,"p":{"z":1,"c":16156,"i":21186,"p":{"a":{"a":{"u":"http://thomas-cdn-kw.kssws.ks-cdn.com/detect.jpg","t":1},"b":{"u":"http://thomas-cdn-kw.kssws.ks-cdn.com/detect.jpg","t":1}}}}},
+{"a":true,"b":1,"p":{"z":1,"c":16156,"i":21186,"p":{"a":{"a":{"u":"http://thomas-cdn-kw.kssws.ks-cdn.com/detect.jpg","t":2},"b":{"u":"http://thomas-cdn-kw.kssws.ks-cdn.com/detect.jpg","t":2}}}}},
 {"a":true,"b":1,"p":{"z":1,"c":16156,"i":28112,"p":{"a":{"a":{"u":"http://thomas-cdn-lx.kssws.ks-cdn.com/detect.jpg","t":2},"b":{"u":"http://thomas-cdn-lx.kssws.ks-cdn.com/detect.jpg","t":2}}}}},
 {"a":true,"b":1,"p":{"z":1,"c":16156,"i":21185,"p":{"a":{"a":{"u":"http://thomas-cdn-ws.kssws.ks-cdn.com/detect.jpg","t":2},"b":{"u":"http://thomas-cdn-ws.kssws.ks-cdn.com/detect.jpg","t":2}}}}}
 ]
